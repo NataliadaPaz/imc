@@ -1,6 +1,6 @@
-import { MaterialCommunityIcons } from '@expo/vector-icons';
 import React, { useEffect, useRef } from 'react';
-import { Animated, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { View, Text, StyleSheet, Animated, TouchableOpacity } from 'react-native';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 export default function HomeScreen() {
   const scaleAnim = useRef(new Animated.Value(1)).current;
@@ -44,8 +44,6 @@ export default function HomeScreen() {
 
         <Text style={styles.title}>Calculadora IMC</Text>
         <Text style={styles.subtitle}>Vamos cuidar da sua saúde 💙</Text>
-        <Text style={styles.subtitle}>Natália da Paz</Text>
-
 
         <TouchableOpacity style={styles.button} onPress={handlePress}>
           <Text style={styles.buttonText}>Começar</Text>
@@ -58,12 +56,12 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#5ce791',
+    backgroundColor: '#5ce7af',
     alignItems: 'center',
     justifyContent: 'center',
   },
   card: {
-    backgroundColor: '#92ecb6',
+    backgroundColor: '#9bfec6',
     width: '85%',
     padding: 30,
     borderRadius: 25,
