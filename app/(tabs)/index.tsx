@@ -95,3 +95,6 @@ const styles = StyleSheet.create({
     color: '#6C5CE7',
   },
 });
+
+
+// Este é um componente de tela inicial para uma calculadora de IMC (Índice de Massa Corporal). Ele apresenta um cartão animado com um ícone de coração, título, subtítulo e um botão "Começar". O cartão tem uma animação de pulsação contínua para chamar a atenção do usuário. Quando o botão é pressionado, ele executa uma animação rápida de contração e expansão para fornecer feedback visual.
